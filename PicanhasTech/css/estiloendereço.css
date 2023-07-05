@@ -1,0 +1,90 @@
+.nome_do_usuario {
+    margin-left: 30px;
+  }
+
+  .containeropcoesconta {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .opcoes_do_usuario {
+    display: flex;
+    color: white;
+    font-size: 15px;
+    list-style: none;
+    justify-content: left;
+    margin-left: 10px;
+  }
+
+  .lista_do_usuario {
+    padding-top: 5px;
+  }
+
+  .botao_do_usuario {
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+ .botao_do_usuario4 {
+   color: black;
+    text-decoration: none;
+    border-right: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   background-color: #66da43;
+ }
+
+  .botao_do_usuario:hover {
+    background-color: #66da43;
+    color: black;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .header {
+    color: #fff;
+    text-align: center;
+    margin-right: 0px; /* Ajuste o valor da margem conforme necessário */
+  }
+
+  hr {
+    border: none;
+    border-top: 5px solid #fff;
+    margin-bottom: 20px;
+  }
+
+  .divider {
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+  }
+
+  .texto2 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .botao_endereços {
+    color: white;
+    text-decoration: none;
+    background-color: #66da43;
+    padding: 10px 20px;
+    border-radius: 30px;
+  }

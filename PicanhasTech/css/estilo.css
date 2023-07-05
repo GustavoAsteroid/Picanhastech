@@ -1,0 +1,1425 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: monsterrat;
+    src: url(/PicanhasTech/fontes/Montserrat.otf);
+}
+
+body{
+  font-family: 'fahkwang', sans-serif;
+}
+/*----------------------------------------------INÍCIO CABEÇALHO-----------------------------------*/
+
+header{
+    background-color: black;
+    height: 100px;
+    width: 100%;   
+}
+#ul_cabecalho{
+    height: 90px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    
+}
+
+/*LOGO + NOME*/
+
+
+#Logo_e_Nome{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  width: 250px;
+  justify-content: space-between;
+  
+}
+#logo_cabecalho{
+  width: 40px;
+  height: 45px;
+  margin-top: -50%;
+  margin-left: -10%;
+  margin-bottom: 5%; 
+}
+#Nome{
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 81%;
+  
+}
+#nome1_cabecalho{
+  text-decoration: none;
+  color: white;
+  font-size: 130%;
+  font-family: monsterrat;
+  margin-right: -10%;
+    
+}
+#nome2_cabecalho{
+  text-decoration: none;
+  font-size: 130%;  
+  font-family: monsterrat;
+  color: #66da43;
+    
+
+}
+
+/*BARRA DE BUSCA*/
+
+#Pesquisa{
+  display: flex;
+  flex-direction: row;
+  width: 20vw;
+}
+#BarradePesquisa{
+    background-color: black;
+    padding-left: 30px;
+    color: white;
+    width: 20vw;
+    height: 120%;
+    border: 1px solid white;
+}
+#lupa_busca_cabecalho{
+    margin-right: -25px;
+    margin-top: 10px; 
+    position: relative;
+}
+
+/*LISTA DO MENU DA DIREITA*/
+
+/*LISTA*/
+#lista_menu_cabecalho{
+    vertical-align: middle;
+    list-style: none;
+    display: flex;
+    
+}
+.link_lista_menu_cabecalho{
+    
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-left: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 80%;
+    
+}
+.link_lista_menu_cabecalho:hover{
+    background-color: #66da43;
+    color: black;
+}
+/*LOGIN*/
+#imagem_login_cabecalho{
+    margin-top: 1%;
+    margin-left: 1%;
+}
+#texto_login_cabecalho{
+    font-size: 80%;
+    margin-top: 2%;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*CARRINHO*/
+#imagem_carrinho_cabecalho{
+    text-decoration: none;
+    margin-top: 2%;
+    margin-left: 4%;
+    
+}
+#link_imagem_carrinho_cabecalho{
+    text-decoration: none;
+    padding-top: 100%;
+    position: relative;
+}
+#numero_carrinho_cabecalho{
+    margin-top: -3%;
+    margin-left: -5%;
+    font-size: 80%;
+}
+/*----------------MENU MOBILE---------------------*/
+#Menu_Mobile{
+  display: none;
+}
+#select_menu{
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 40px;
+  
+}
+
+
+
+/*----------------DIVISÓRIA---------------------*/
+.divisoria{
+    background-color: #66da43;
+    width: 100%;
+    height: 3px;
+}
+
+.LinhaDivisoria{
+    background-color: #66da43;
+    width: 100%;
+    height: 5px;
+}
+/*--------------------------------------------FIM CABEÇALHO----------------------------------------*/
+
+
+
+/*--------------------------------------------SECTION CORPO------------------------------*/
+
+section{
+    background-color: black;
+}
+
+.container_1{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../imagens/nvidia-background2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 20px #66da43;
+}
+
+.card-1{
+  
+  padding-left: 10px;
+  border: 3px solid white;
+  text-align: left;
+  align-items: center;
+  width: 500px;
+  height: 250px;
+  color: white;
+  border-radius: 25px;
+  overflow: auto; 
+  background-color: #66da43;
+}
+h1{
+  font-size: 30px;
+}
+h2{
+  font-size: 30px;
+}
+.botao-comprar{
+  margin-left: 40%;
+  width: 20%;
+  height: 17%;
+  border-radius: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  color: #66da43;
+}
+
+.botao-comprar:hover{
+  color: white;
+  background-color: #66da43;
+  transition: color 0.4s ease-in-out;
+  border: 2px solid white;
+}
+
+  
+.card-2{
+  width: 500px;
+  border: 3px solid #66da43;
+  border-radius: 25px;
+  height: 250px;
+  background-color: black;
+  padding-top: 0px;
+  padding-left: 0px;
+  
+}  
+
+.card-2 img{
+  width: 100%;
+  height: 250px;
+  border-radius: 25px;
+  object-fit: contain;
+}
+.divisoria_2{
+  background-color: #66da43;
+    width: 100%;
+    height: 3px;
+}
+
+.texto-c2{
+  color:white;
+  display: flex;
+  font-size: 40px;
+  text-transform: uppercase;
+  justify-content: space-around;
+  margin-top: 35px;
+}
+
+.texto-c2 h1{
+  margin-right: 50%;
+  font-size: 40px;
+  text-transform: uppercase;
+ 
+}
+.botao-ver-mais{
+  background-color: #66da43 ;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+.botao-ver-mais:hover{
+  color: white;
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+}
+.container_2{
+  width: 100%;
+  height: auto;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url("")
+}
+
+s{
+  font-size: 12px;
+}
+.card1-c2{
+  width: 300px;
+  border: none;
+  border-radius: 25px;
+  height: 440px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 3%;
+  margin-left: 3%;
+}  
+
+.card1-c2 img{
+  width: 100%;
+  height: 350px;
+  transition: transform 2s ease;
+}
+
+.card1-c2 img:hover {
+  transform: scale(1.2);
+  
+}
+
+.desc_pm{
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+.botao-comprar-c2{
+  background-color: #66da43 ;
+  width: 40%;
+  height: 40px;
+  border-radius: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+.botao-comprar-c2:hover{
+  color: white;
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+}
+.card2-c2{
+  width: 300px;
+  border: none;
+  border-radius: 25px;
+  height: 440px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 3%;
+  margin-left: 3%;
+}  
+
+.card2-c2 img{
+  width: 100%;
+  height: 350px;
+  transition: transform 2s ease;
+}
+
+.card2-c2 img:hover {
+  transform: scale(1.2);
+  
+}
+
+.desc_mp{
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+.card3-c2{
+  width: 300px;
+  border: none;
+  border-radius: 25px;
+  height: 440px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 3%;
+  margin-left: 3%;
+}  
+
+.card3-c2 img{
+  width: 100%;
+  height: 350px;
+  transition: transform 2s ease;
+}
+
+.card3-c2 img:hover {
+  transform: scale(1.2);
+  
+}
+
+.desc_controle{
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+.card4-c2{
+  width: 300px;
+  border: none;
+  border-radius: 25px;
+  height: 440px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 3%;
+  margin-left: 3%;
+}  
+
+.card4-c2 img{
+  width: 100%;
+  height: 350px;
+  transition: transform 2s ease;
+}
+
+.card4-c2 img:hover {
+  transform: scale(1.1);
+}
+
+.desc_pv{
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+.texto-c3 h1{
+  color: white;
+  margin-top: 30px;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.container_3{
+  width: 100%;
+  height: auto;
+  margin-bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url("")
+}
+
+.card1-c3{
+  width: 400px;
+  margin-bottom: 3%;
+  margin-left: 3%;
+  border-radius: 25px;
+  height: 600px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 10px 20px rgba(102, 218, 67, 0.7);
+}
+
+.card1-c3:hover {
+  box-shadow: 0 10px 30px rgba(102, 218, 67, 0.7);
+}
+
+.card1-c3 img{
+   width: 100%;
+  height: 400px;
+  object-fit: cover;
+  transition: transform 2s ease;
+}
+
+.card1-c3 img:hover {
+  transform: scale(1.1);
+}
+
+.desc_consoles{
+  color: white;
+}
+
+.card2-c3{
+  width: 400px;
+  margin-bottom: 3%;
+  margin-left: 3%;
+  border: none;
+  border-radius: 25px;
+  height: 600px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(102, 218, 67, 0.7);
+}
+
+.card2-c3:hover {
+  box-shadow: 0 10px 30px rgba(102, 218, 67, 0.7);
+}
+
+.card2-c3 img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  transition: transform 2s ease;
+}
+
+.card2-c3 img:hover {
+  transform: scale(1.1);
+}
+
+.desc_acessorios{
+  color: white;
+}
+
+.card3-c3{
+  width: 400px;
+  margin-bottom: 3%;
+  margin-left: 3%;
+  border: none;
+  border-radius: 25px;
+  height: 600px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+  box-shadow: 0 10px 20px rgba(102, 218, 67, 0.7);
+}
+
+.card3-c3:hover {
+  box-shadow: 0 10px 30px rgba(102, 218, 67, 0.7);
+}
+
+.card3-c3 img{
+   width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 2s ease;
+}
+
+.card3-c3 img:hover {
+  transform: scale(1.1);
+}
+
+.desc_hardware{
+  color: white;
+}
+
+.divisoria_2{
+  background-color: #66da43;
+    width: 100%;
+    height: 3px;
+}
+
+.texto-c4{
+  color:white;
+  display: flex;
+  font-size: 40px;
+  text-transform: uppercase;
+  justify-content: space-around;
+  margin-right: 40px;
+  margin-top: 35px;
+}
+
+.texto-c4 h1{
+  margin-left: 40px;
+  margin-right: 40%;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.texto-c4 button{
+  width: 180px;
+}
+
+.container_4{
+  width: 100%;
+  height: auto;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url("")
+}
+
+s{
+  font-size: 12px;
+}
+
+.card1-c4{
+  width: 300px;
+  border: none;
+  border-radius: 25px;
+  height: 440px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 3%;
+  margin-left: 3% ;
+}  
+
+.card1-c4 img{
+  width: 100%;
+  height: 350px;
+  object-fit: scale-down;
+  transition: transform 2s ease;
+}
+
+.card1-c4 img:hover {
+  transform: scale(1.1);
+  
+}
+
+.desc_pm{
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+.botao-comprar-c2{
+  background-color: #66da43 ;
+  width: 40%;
+  height: 40px;
+  border-radius: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+.botao-comprar-c2:hover{
+  color: white;
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+}
+.card2-c4{
+  width: 300px;
+  border: none;
+  border-radius: 25px;
+  height: 440px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 3%;
+  margin-left: 3% ;
+}  
+
+.card2-c4 img{
+  width: 100%;
+  height: 350px;
+  transform: scale(1.2);
+  object-fit: scale-down;
+  transition: transform 2s ease;
+}
+
+.card2-c4 img:hover {
+  transform: scale(1.5);
+  
+}
+
+.desc_mp{
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+.card3-c4{
+  width: 300px;
+  border: none;
+  border-radius: 25px;
+  height: 440px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 3%;
+  margin-left: 3% ;
+}  
+
+.card3-c4 img{
+  width: 100%;
+  height: 350px;
+  transform: scale(1.1);
+  object-fit: scale-down;
+  transition: transform 2s ease;
+}
+
+.card3-c4 img:hover {
+  transform: scale(1.3);
+  
+}
+
+.desc_controle{
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+.card4-c4{
+  width: 300px;
+  border: none;
+  border-radius: 25px;
+  height: 440px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 3%;
+  margin-left: 3% ;
+}  
+
+.card4-c4 img{
+  width: 80%;
+  height: 350px;
+  object-fit: contain;
+  transform: scale(1.2);
+  transition: transform 2s ease;
+}
+
+.card4-c4 img:hover {
+  transform: scale(1.4);
+}
+
+.desc_pv{
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+
+.divisoria_2{
+  background-color: #66da43;
+  width: 100%;
+  height: 3px;
+}
+.texto-c5 h1{
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: white;
+}
+.texto-c5 p{
+  margin-left: 50px;
+  font-size: 17px;
+  text-align: center;
+}
+.botao-comprar-c5{
+  margin-left: 270px;
+  margin-top: 30px;
+  background-color: #66da43 ;
+  width: 20%;
+  height: 40px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+.botao-comprar-c5:hover{
+  color: white;
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+}
+.container_5{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  background-image: url(../imagens/backgroundbala.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container_5 .background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(../imagens/backgroundbala.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+.texto-c5{
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+.divisoria_2{
+  background-color: #66da43;
+  width: 100%;
+  height: 3px;
+}
+.texto-c6{
+  color:white;
+  display: flex;
+  font-size: 40px;
+  text-transform: uppercase;
+  justify-content: space-around;
+  margin-right: 40px;
+  margin-top: 35px;
+}
+
+.texto-c6 h1{
+  margin-left: 40px;
+  
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+
+
+.container_6{
+  width: 100%;
+  height: auto;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url("")
+}
+
+.card1-c6{
+  width: 300px;
+  border: none;
+  border-radius: 25px;
+  height: 440px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 3%;
+  margin-left: 3% ;
+}  
+
+.card1-c6 img{
+  width: 100%;
+  height: 350px;
+  transform: scale(1.1);
+  object-fit: scale-down;
+  transition: transform 2s ease;
+}
+
+.card1-c6 img:hover {
+  transform: scale(1.3);
+  
+}
+
+.card2-c6{
+  width: 300px;
+  border: none;
+  border-radius: 25px;
+  height: 440px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 3%;
+  margin-left: 3% ;
+}  
+
+.card2-c6 img{
+  width: 100%;
+  height: 350px;
+  transform: scale(1.1);
+  object-fit: scale-down;
+  transition: transform 2s ease;
+}
+
+.card2-c6 img:hover {
+  transform: scale(1.3);
+}
+
+.card3-c6{
+  width: 300px;
+  border: none;
+  border-radius: 25px;
+  height: 440px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 3%;
+  margin-left: 3% ;
+}  
+
+.card3-c6 img{
+  width: 100%;
+  height: 350px;
+  transform: scale(0.8);
+  object-fit: scale-down;
+  transition: transform 2s ease;
+}
+
+.card3-c6 img:hover {
+  transform: scale(0.9);
+  
+}
+
+.card4-c6{
+  width: 300px;
+  border: none;
+  border-radius: 25px;
+  height: 440px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 3%;
+  margin-left: 3% ;
+}  
+
+.card4-c6 img{
+  width: 100%;
+  height: 350px;
+  transform: scale(1.2);
+  object-fit: scale-down;
+  transition: transform 2s ease;
+}
+
+.card4-c6 img:hover {
+  transform: scale(1.4);
+}
+
+.container_7{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../imagens/trbackground.png");
+  text-align: center;
+}
+
+.c7-txt{
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.c7-txt h1{
+  padding-bottom: 20px;
+}
+
+.textfield-c7{
+  color: white;
+}
+
+.textfield-c7 > input{
+    width: 350px;
+    border-top: 2px solid #66da43;
+    border-left: 2px solid #66da43;
+    border-right: 2px solid #66da43;
+    padding: 15px;
+    background-color: transparent;
+    color: white;
+    font-size: 12pt;
+    outline: none;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.textfield-c7 label{
+  display: block;
+  text-align: center;
+}
+
+.submit-c7{
+  width: 350px;
+  border: 2px solid #66da43;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  height: 40px;
+  margin-bottom: 10%;
+}
+
+.submit-c7:hover{
+  background-color: black;
+  color: #66da43;
+  transition-duration: 0.5s;
+  box-shadow: 0px 10px 40px -12px #66da43;
+  
+}
+
+.containerConta1{
+  width: 60%;
+  height: 250px;
+  background-color: #66da43;
+  display: flexbox;
+  align-items: left;
+  justify-content: space-around;
+  margin: auto;
+}
+
+#contaNomeUsuario{
+  font-size: 35px;
+  font-family: monsterrat;
+  color: white;
+  position: relative;
+  left: 20%;
+  top: 120px;
+}
+#fotoConta{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 7%;
+  margin-top: 2%;
+}
+  
+
+
+
+
+
+/*------------------------------------------FIM SECTION CORPO---------------------------------*/
+
+/*-------------------------------------------------RODAPÉ-------------------------------------*/
+
+/*FUNDO PRETO*/
+
+#RodapeFundoPreto{
+  background-color: black;
+  width: 100% ;
+  padding-top: 4.2%;
+  padding-bottom: 4.2%;
+  color: white;
+  list-style: none;
+  display: flex;
+  align-items:flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+/*Logo*/
+
+#caixa_logo_rodape{
+  text-align: center;
+  width: 100px;
+  margin-top: 4%;
+  margin-left: -1%;
+}
+
+#nome1_logo_rodape{
+    font-size: 100%;
+    font-family: monsterrat;
+}
+
+#nome2_logo_rodape{
+    
+    font-size: 100%;
+    font-family: monsterrat;
+    
+    
+}
+
+/*FIM LOGO*/
+
+.listas_colunas{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 80%;
+}
+
+#Caixa_coluna1_rodape_preto{ 
+  height: 100%;
+  margin-left: -5%;
+}
+
+#Caixa_coluna2_rodape_preto{ 
+  height: 100%;
+}
+
+#Caixa_coluna3_rodape_preto{  
+  height: 100%;       
+}
+
+/*Fim fundo preto*/
+
+/*Fundo verde*/
+
+#RodapeFundoVerde{
+  background-color: #66da43;
+  width: 100%;
+  padding-top: 1.95% ;
+  padding-bottom:1.95% ;
+  color: black;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;  
+}
+
+/*COLUNAS*/
+
+#Caixa_coluna1_rodape_verde{
+   
+  height: 100%;   
+}
+
+#FotosComunidade{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+#Caixa_coluna2_rodape_verde{
+   
+  height: 100%;
+  margin-left:5%;    
+}
+
+#Caixa_coluna3_rodape_verde{
+   
+  height: 100%;
+      
+}
+/*-------------------------------------------FIM RODAPÉ---------------------------------------*/
+
+/*RESPONSIVIDADE*/
+
+/*=========================PEQUENA=======================*/
+@media screen and (max-width: 696px) and (min-width: 491px) {
+  /*------------------CABEÇALHO-------------------*/
+  #logo_cabecalho{
+    margin-bottom: 10%;   
+  }
+  #Nome{
+    flex-direction: column;
+    justify-content: center;
+  }
+  #Pesquisa{
+    display: none;
+  }
+  #Menu{
+    margin-left: -25%;
+  }
+  #texto_login_cabecalho{
+    display: none;
+  }
+  /*------------------FIM CABEÇALHO-------------------*/
+  h1{
+    font-size: 20px;
+  }
+  .botao-comprar{
+     width: 100px;
+    margin-left: 30%;
+  }
+  .texto-c6 h1{
+  margin-left: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  }
+  /*---------------------RODAPE-----------------------*/
+  #caixa_logo_rodape{
+    padding-right: 12.5%;
+    padding-left: 12.5%;
+    margin-bottom: 5%;
+  }
+  #Caixa_coluna1_rodape_preto{
+    padding-right: 12.5%;
+    padding-left: 12.5%;
+    margin-bottom: 5%;
+  }
+  #Caixa_coluna2_rodape_preto{
+    padding-right: 5%;
+    padding-left: 15%;
+    margin-bottom: 5%;
+  }
+  #Caixa_coluna3_rodape_preto{
+    padding-right: 5%;
+    padding-left: 15%;
+    margin-bottom: 5%;
+  }
+  #Caixa_coluna1_rodape_verde{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+  #FotosComunidade{
+    width: 150px;
+  }
+  #Caixa_coluna2_rodape_verde{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  #Caixa_coluna3_rodape_verde{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  /*-------------------FIM RODAPE---------------------*/
+}
+/*========================MÉDIA==========================*/
+@media screen and (min-width: 697px) and (max-width: 1024px){
+  
+  /*------------------CABEÇALHO-------------------*/
+  #logo_cabecalho{
+    margin-bottom: 10%;    
+  }
+  #Nome{
+    flex-direction: column;
+    justify-content: center;
+  }
+  #Pesquisa{
+    margin-left: -15%;
+  }
+  #Menu{
+    margin-left: -5%;
+  }
+  #texto_login_cabecalho{
+    display: none;
+  }
+  /*---------------FIM CABEÇALHO-------------------*/
+
+  /*-----------------CORPO--------------------*/
+  
+  .card-1{
+    width: 35vw;
+  }
+  .botao-comprar{
+    width: 100px;
+    margin-left: 30%;
+  }
+  .card-2{
+    width: 35vw;
+    
+  }
+  .card-2 img{
+   text-align:center;
+  }
+  h2{
+    font-size: 20px;
+  }
+  h1{
+    font-size: 35px;
+  }
+  .texto-c2{
+    flex-wrap: nowrap;
+  }
+
+  /*---------------------RODAPE-----------------------*/
+  #Caixa_coluna2_rodape_verde{
+    font-size: 15px;
+  }
+  #ImagemMeiosDePagamento{
+    width: 200px;
+  }
+  /*-------------------FIM RODAPE---------------------*/
+}
+/*=====================GRANDE==============================*/
+@media screen and (min-width: 1025px){
+  
+}
+
+
+
+/*=====================CELULAR===========================*/
+@media screen and (max-width: 490px) {
+  /*------------------CABEÇALHO-------------------*/
+  #Menu{
+    display: none;
+    margin-left: -25%;
+  }
+  #Menu_Mobile{
+    display: flex;
+  }
+  #logo_cabecalho{
+    margin-bottom: 10%;   
+  }
+  #Nome{
+    flex-direction: column;
+    justify-content: center;
+  }
+  #Pesquisa{
+    display: none;
+  }
+  #texto_login_cabecalho{
+    display: none;
+  }
+  /*------------------FIM CABEÇALHO-------------------*/
+  h1{
+    font-size: 20px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  .card-1{
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .card-2{
+    margin-right: 1%;
+  }
+  .botao-comprar{
+     width: 100px;
+    margin-left: 30%;
+  }
+  .texto-c6 h1{
+  margin-left: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  }
+  .card1-c3{
+    width: 350px;
+  }
+  .card2-c3{
+    width: 350px;
+  }
+  .card3-c3{
+    width: 350px;
+  }
+  /*---------------------RODAPE-----------------------*/
+  #caixa_logo_rodape{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10%;
+  }
+  #Caixa_coluna1_rodape_preto{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  #Caixa_coluna2_rodape_preto{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  #Caixa_coluna3_rodape_preto{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  #Caixa_coluna1_rodape_verde{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+  #FotosComunidade{
+    width: 150px;
+  }
+  #Caixa_coluna2_rodape_verde{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  #Caixa_coluna3_rodape_verde{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  
+}

@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'fahkwang', sans-serif;
+}
+
+h1 {
+    color: white;
+    padding: 5%;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+.content {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.left-side {
+    padding: 5%;
+    color: white;
+    background-color: black;
+}
+
+.right-side {
+    margin-right: 50px;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    color: white;
+    background-color: black;
+}
+
+.produtos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.produtos img {
+    width: 300px;
+    height: 250px;
+}
+
+.right-side a {
+    text-decoration: none;
+    color: white;
+    background-color: #66da43;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.opcao {
+    margin-top: 20px;
+    background-color: black;
+    color: #66da43;
+    padding: 5px 5px;
+}
